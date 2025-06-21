@@ -74,6 +74,24 @@ footer {
   font-size: 0.9em;
 }
 
+.custom-marker {
+  list-style: none;
+  padding-left: 0;
+}
+
+.custom-marker li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+.custom-marker li::before {
+  content: "✓"; 
+  position: absolute;
+  left: 0;
+  color: #4CAF50; 
+  font-weight: bold;
+}
 
 .about .profile-section {
   text-align: left;
